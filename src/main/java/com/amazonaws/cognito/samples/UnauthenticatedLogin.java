@@ -30,7 +30,7 @@ public class UnauthenticatedLogin {
 
 	public static void main(String args[]) throws FileNotFoundException, IOException, ParseException {
 		UnauthenticatedLogin l = new UnauthenticatedLogin();
-		l.login("ap-southeast-2:863e0803-1919-4658-a039-5706bd5e9bf0");
+		l.login("<Identity pool ID>");
 	}
 
 	public Credentials authenticate(String identityPool) throws FileNotFoundException, IOException, ParseException {
